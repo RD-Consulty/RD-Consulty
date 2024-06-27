@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Produtos e Trabalhos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .products, .videos, .photos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product, .video, .photo {
+            flex: 1 1 calc(33.333% - 20px);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .product img, .video iframe, .photo img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .product a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meus Produtos e Trabalhos</h1>
+
+        <div class="section products">
+            <h2>Produtos do Hotmart</h2>
+            <div class="product">
+                <img src="link_da_imagem_do_produto" alt="Produto 1">
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgo.hotmart.com%2FM86152772V%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR27rpJ4uHNoJeXH-eT7zZGnQTVO3lfHXqulNqNMqsnqKTVsgyP2o0TpoJQ_aem_bkbxTMBTzJ8b8SSwZJoQIg&h=AT1VXHwf_uKzfwlNW8QpwdY9pgI8LCWfkqFOVNr_B2_hY2h6K8yF1PZBfVWuZLRyolVuDSzgUoEbo0wcMjCV011lUvSv8EYrt0kZmit2V6IzdxeqgRlWfeEDqeE34VTfd5Jj&__tn__=-UK-R&c[0]=AT3gNVGeqoZc8GWKH62Cgd9TdBFa4-5s2sRA1Pj1LStpDj9PPAZlCiJjet5kx9qS5Q9NVk6HZ5Ac9DQLY7_83BeOnnFmhF5x-fJHF8QTOkv5r-E419b7jzgKZFGzr8QnEmPpj4ldQi48utH7OnD0RPJbQiTMtGXDFbSA7ZbslmMaGmf0K4r8S9uThpdbN8WL" target="_blank">Ver Produto</a>
+            </div>
+            <div class="product">
+                <img src="link_da_imagem_do_produto" alt="Produto 2">
+                <a href="link_do_produto_hotmart" target="_blank">Ver Produto</a>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+
+        <div class="section videos">
+            <h2>Meus Vídeos</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="https://youtu.be/qxzROPnofkY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://youtu.be/SmJ2fjDdjQE" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Adicione mais vídeos conforme necessário -->
+        </div>
+
+        <div class="section photos">
+            <h2>Galeria de Fotos</h2>
+            <div class="photo">
+                <img src="https://photos.app.goo.gl/vsFo3d2CtowXJFxV6" alt="Foto 1">
+            </div>
+            <div class="photo">
+                <img src="link_da_foto_2" alt="Foto 2">
+            </div>
+            <!-- Adicione mais fotos conforme necessário -->
+        </div>
+    </div>
+</body>
+</html>
